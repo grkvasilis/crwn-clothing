@@ -1,6 +1,6 @@
 import { useContext } from "react"
 
-import {ProductsContext} from "../../contexts/ProductsContent"
+import {ProductsContext} from "../../contexts/ProductsContext"
 import ProductCard from "../../components/ProductCard/ProductCard";
 
 import "./Shop.scss"
