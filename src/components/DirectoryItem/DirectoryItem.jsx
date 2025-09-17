@@ -4,9 +4,9 @@ import {
   BackgroundImage,
   Body,
   DirectoryItemContainer,
-} from "./DirctoryItem.styles";
+} from "./DirectoryItem.styles";
 
-const DirctoryItem = ({ category }) => {
+const DirectoryItem = ({ category }) => {
   const { imageUrl, title, route } = category;
   const navigate = useNavigate();
 
@@ -23,4 +23,4 @@ const DirctoryItem = ({ category }) => {
   );
 };
 
-export default DirctoryItem;
+export default DirectoryItem;
