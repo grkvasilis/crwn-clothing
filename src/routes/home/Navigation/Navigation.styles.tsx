@@ -25,3 +25,7 @@ export const NavLink = styled(Link)`
   padding: 10px 15px;
   cursor: pointer;
 `;
+export const NavButton = styled.span`
+  padding: 10px 15px;
+  cursor: pointer;
+`;

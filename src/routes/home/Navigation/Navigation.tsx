@@ -12,7 +12,7 @@ import {signOutStart} from "../../../store/user/userAction"
 import { selectCurrentUser } from "../../../store/user/userSelector";
 import { selectIsCartOpen } from "../../../store/cart/cartSelector";
 
-import {NavigationContainer,LogoContainer,NavLinks,NavLink} from "./Navigation.styles"
+import {NavigationContainer,LogoContainer,NavLinks,NavLink,NavButton} from "./Navigation.styles"
 
 const Navigation = () => {
   const dispatch = useDispatch()
@@ -32,9 +32,9 @@ const Navigation = () => {
             Shop
           </NavLink>
           {currentUser ? (
-            <NavLink as='span' onClick={signOutUser}>
+            <NavButton onClick={signOutUser}>
               Sign Out
-            </NavLink>
+            </NavButton>
           ) : (
             <NavLink to="/auth">
               SignIn

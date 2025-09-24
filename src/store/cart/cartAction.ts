@@ -2,7 +2,6 @@ import { CART_ACTIONS_TYPES, CartItem } from "./cartTypes";
 import {
   createAction,
   withMatcher,
-  Action,
   ActionWithPayload,
 } from "../../utils/reducer/reducer";
 import { CategoryItem } from "../categories/categoryTypes";
