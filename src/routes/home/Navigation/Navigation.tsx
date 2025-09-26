@@ -33,11 +33,11 @@ const Navigation = () => {
           </NavLink>
           {currentUser ? (
             <NavButton onClick={signOutUser}>
-              Sign Out
+              Sign out
             </NavButton>
           ) : (
             <NavLink to="/auth">
-              SignIn
+              Sign in
             </NavLink>
           )}
           <CartIcon />
